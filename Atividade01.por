@@ -10,7 +10,12 @@ programa
 
 		escreva("Qual foi sua nota?: ")
 		leia(nota)
-
+		
+		
+		se (nota >= 9.0)
+		{
+		escreva("Aluno Destaque!")
+		}
 		se (nota >= 6.0) {
 			escreva("Aluno Aprovado!")
 		}
@@ -29,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 298; 
+ * @POSICAO-CURSOR = 174; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
